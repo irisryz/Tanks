@@ -103,7 +103,7 @@ public class Ammo extends GameObject {
 						this.timeTillDeath = Math.max(this.timeTillDeath, 0.0001);
 					}
 				}
-				
+				    
 				// Tanks...
 				if (gameObject instanceof Tank) {
 					Tank tank = (Tank)gameObject;
